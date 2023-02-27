@@ -220,6 +220,29 @@
   font-weight: bold;
 }
 
+.bg-primary {
+  background-color: rgb(28, 93, 153);
+  color: rgb(255, 255, 255);
+}
+
+.bg-secondary {
+  background: rgb(99, 159, 171);
+  color: rgb(255, 255, 255);
+}
+
+.bg-tertiary {
+  background: rgb(187, 205, 229);
+}
+
+.bg-white {
+  background: rgb(255, 255, 255);
+}
+
+.bg-grey {
+  background: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
+}
+
 body {
   margin-top: 5px;
   margin-left: 5px;
