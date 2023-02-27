@@ -1,0 +1,75 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 8, 255, 0.679);
+}
+
+.btn-secondary {
+  color: rgb(255, 255, 255);
+  background-color: rgb(97, 96, 96);
+}
+
+.btn-success {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 188, 0);
+}
+
+.btn-danger {
+  color: rgb(255, 255, 255);
+  background-color: rgb(233, 0, 0);
+}
+
+.btn-warning {
+  color: rgb(0, 0, 0);
+  background-color: rgb(233, 233, 0);
+}
+
+.btn-light {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-info {
+  color: rgb(0, 0, 0);
+  background-color: rgb(183, 214, 249);
+}
+
+.btn-dark {
+  color: rgb(0, 0, 0);
+  background-color: rgb(183, 214, 249);
+}
+
+.btn-link {
+  color: blue;
+}
+
+.btn {
+  margin-bottom: 0;
+  padding: 6px 12px;
+  width: 12%;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: lightgray;
+  opacity: 0.7;
+}
+
+body {
+  margin-top: 5px;
+  margin-left: 5px;
+}/*# sourceMappingURL=style.css.map */

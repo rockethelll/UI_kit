@@ -1,0 +1,18 @@
+.btn {
+  margin-bottom: 0;
+  padding: 6px 12px;
+  width: 12%;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: lightgray;
+  opacity: 0.7;
+}
