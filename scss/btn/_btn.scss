@@ -1,8 +1,8 @@
 .btn {
   margin-bottom: 0;
-  padding: 6px 12px;
-  width: 12%;
-  font-size: 14px;
+  padding: 5px 10px;
+  width: 10%;
+  font-size: 1.3vw;
   line-height: 1.42857143;
   text-align: center;
   white-space: nowrap;
@@ -10,9 +10,24 @@
   cursor: pointer;
   border-radius: 5px;
   border: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
 }
 
-.btn:hover {
-  background-color: lightgray;
-  opacity: 0.7;
+.btn-sm {
+  padding: 3px 6px;
+  font-size: 1vw;
+  line-height: 1.5;
+  border-radius: 5px;
+  width: 6%;
+}
+
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 1.3vw;
+  line-height: 1.5;
+  border-radius: 8px;
+  width: 12%;
 }

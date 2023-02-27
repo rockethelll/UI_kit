@@ -1,0 +1,82 @@
+.btn-disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.btn-outline-primary {
+  background-color: $white;
+  color: $primary;
+  border: 1px solid $primary;
+
+  &:hover {
+    color: $white;
+    background-color: $primary;
+  }
+}
+
+.btn-outline-secondary {
+  background-color: $white;
+  color: $secondary;
+  border: 1px solid $secondary;
+
+  &:hover {
+    color: $white;
+    background-color: $secondary;
+  }
+}
+
+.btn-outline-success {
+  background-color: $white;
+  color: $success;
+  border: 1px solid $success;
+
+  &:hover {
+    color: $white;
+    background-color: $success;
+  }
+}
+
+.btn-outline-danger {
+  background-color: $white;
+  color: $danger;
+  border: 1px solid $danger;
+
+  &:hover {
+    color: $white;
+    background-color: $danger;
+  }
+}
+
+.btn-outline-warning {
+  background-color: $white;
+  color: $warning;
+  border: 1px solid $warning;
+
+  &:hover {
+    color: $black;
+    background-color: $warning;
+  }
+}
+
+.btn-outline-light {
+  background-color: $white;
+  color: $light;
+  border: 1px solid $light;
+
+  &:hover {
+    color: $black;
+    background-color: $white;
+  }
+}
+
+.btn-outline-info {
+  background-color: $white;
+  color: $info;
+  border: 1px solid $info;
+
+  &:hover {
+    color: $black;
+    background-color: $info;
+  }
+}
