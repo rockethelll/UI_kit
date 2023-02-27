@@ -12,27 +12,36 @@
 <body>
 
   <!-- Les titres -->
-  <p>Les différentes tailles de titres applicables avec hs-X de 1 (le plus grand) à 6 (le plus petit) en style-font
+  <p class="hs-2 text-center">Les différentes tailles de titres applicables avec hs-X de 1 (le plus grand) à 6 (le plus
+    petit) en style-font
     Montserra</p>
-  <h1 class="hs-1">Mon kit UI</h1>
-  <h2 class="hs-2">Les couleurs</h2>
-  <h3 class="hs-3">Les boutons</h3>
-  <h4 class="hs-4">Les inputs</h4>
-  <h5 class="hs-5">Les icônes</h5>
-  <h6 class="hs-6">Les autres</h6>
+  <br><br>
 
-  <br><br><br>
+  <div class="text-center">
+    <h1 class="hs-1">h1 - Mon kit UI</h1>
+    <h2 class="hs-2">h2 - Les couleurs</h2>
+    <h3 class="hs-3">h3 - Les boutons</h3>
+    <h4 class="hs-4">h4 - Les inputs</h4>
+    <h5 class="hs-5">h5 - Les icônes</h5>
+    <h6 class="hs-6">h6 - Les autres</h6>
+  </div>
+  <br>
+  <hr <br><br><br>
 
   <!-- Les paragraphes -->
-  <p>Les différentes tailles de textes applicables avec hs-X de 1 (le plus grand) à 6 (le plus petit) en style-font
+  <p class="hs-2 text-center">Les différentes tailles de textes applicables avec hs-X de 1 (le plus grand) à 6 (le plus
+    petit) en style-font
     Roboto</p>
-  <p class="fs-1">Lorem ipsum dolor sit</p>
-  <p class="fs-2">Lorem ipsum dolor sit</p>
-  <p class="fs-3">Lorem ipsum dolor sit</p>
-  <p class="fs-4">Lorem ipsum dolor sit</p>
-  <p class="fs-5">Lorem ipsum dolor sit</p>
-  <p class="fs-6">Lorem ipsum dolor sit</p>
-  <br><br><br>
+  <div class="text-center">
+    <p class="fs-1">fs-1 - Lorem ipsum dolor sit</p>
+    <p class="fs-2">fs-2 - Lorem ipsum dolor sit</p>
+    <p class="fs-3">fs-3 - Lorem ipsum dolor sit</p>
+    <p class="fs-4">fs-4 - Lorem ipsum dolor sit</p>
+    <p class="fs-5">fs-5 - Lorem ipsum dolor sit</p>
+    <p class="fs-6">fs-6 - Lorem ipsum dolor sit</p>
+    <br><br>
+    <hr><br>
+  </div>
 
   <!-- Blockquotes -->
   <blockquote cite="http://www.worldwildlife.org/who/index.html" class="blockquote">
@@ -41,23 +50,24 @@
       globally.</p>
   </blockquote>
 
-    <br><br><br>
+  <br><br>
+  <hr><br>
 
   <!-- Les diiférents couleurs utilisées -->
-  <div>
-    <p>Voici les couleurs utilisées</p>
-    <div class="bg-primary">Primary</div>
-    <div class="bg-secondary">Secondary</div>
-    <div class="bg-tertiary">Tertiary</div>
-    <div class="bg-white">White</div>
-    <div class="bg-grey">Grey</div>
+  <div class="text-center fs-2">
+    <p class="text-center fs-2">Voici les couleurs utilisées</p>
+    <div style="height: 50px; width: 50%; " class="bg-primary">Primary</div>
+    <div style="height: 50px; width: 50%; " class="bg-secondary">Secondary</div>
+    <div style="height: 50px; width: 50%; " class="bg-tertiary">Tertiary</div>
+    <div style="height: 50px; width: 50%; " class="bg-white">White</div>
+    <div style="height: 50px; width: 50%; " class="bg-grey">Grey</div>
   </div>
 
   <br><br><br>
 
   <!-- Presentation des boutons -->
+  <p class="text-center hs-2">Voici les boutons au format grande taille</p>
   <div>
-    <p>Voici les boutons au format grande taille</p>
     <button class="btn btn-lg btn-primary">Primary</button>
     <button class="btn btn-lg btn-secondary">Secondary</button>
     <button class="btn btn-lg btn-success">Success</button>
@@ -74,8 +84,8 @@
   <br>
   <br>
 
-  <div class="mqlsdkjf">
-    <p>Voici les boutons de la taille standard</p>
+  <p class="text-center hs-2">Voici les boutons de la taille standard</p>
+  <div>
     <button class="btn btn-primary">Primary</button>
     <button class="btn btn-secondary">Secondary</button>
     <button class="btn btn-success">Success</button>
@@ -93,7 +103,7 @@
   <br>
 
   <div>
-    <p>Voici les boutons au format petite taille</p>
+    <p class="text-center hs-2">Voici les boutons au format petite taille</p>
     <button class="btn btn-sm btn-primary">Primary</button>
     <button class="btn btn-sm btn-secondary">Secondary</button>
     <button class="btn btn-sm btn-success">Success</button>
@@ -109,7 +119,7 @@
   <br><br><br>
 
   <div>
-    <p>Voici les boutons au format outline</p>
+    <p class="text-center hs-2">Voici les boutons au format outline</p>
     <button class="btn btn-outline-primary">Primary</button>
     <button class="btn btn-outline-secondary">Secondary</button>
     <button class="btn btn-outline-success">Success</button>
@@ -121,6 +131,23 @@
   </div>
 
   <br><br><br>
+
+  <div class="d-flex">
+    <div class="card bg-primary">
+      <div class="card-header">
+        <h5>Card header tire de l'event</h5>
+      </div>
+      <div class="card-body">
+        <p>Voici le contenu de la card</p>
+      </div>
+      <div class="card-footer">
+        <p>Voici un footer</p>
+      </div>
+    </div>
+    <div class="card bg-primary">
+      <p>Voici une carte</p>
+    </div>
+  </div>
 
 </body>
 
